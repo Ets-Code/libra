@@ -22,7 +22,7 @@ public:
     void borrowBook(int customerId);
     void reserveBook(int customerId);
 
-    __unused void unreserveBook(int customerId);
+    void unreserveBook(int customerId);
     void returnBook(int customerId);
 
 private:
